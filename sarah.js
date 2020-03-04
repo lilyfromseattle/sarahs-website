@@ -1,8 +1,7 @@
 
-var windowSize = $(window).width()
-console.log("WINDOW SIZE", windowSize)
-var thing = (windowSize/70).toString()
-var rad = thing + "em"
+var containerSize = $('#container').width()
+console.log("WINDOW SIZE", containerSize)
+var rad = ((containerSize/2).toString()) + "px"
 var type = 1, //circle type - 1 whole, 0.5 half, 0.25 quarter
     radius = rad, //distance from center
     start = -90, //shift start from 0

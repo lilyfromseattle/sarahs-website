@@ -1,6 +1,7 @@
 ul {
     position: relative;
-    top: 500px; left: 500px; 
+    top: 500px; 
+    left: 500px; 
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -19,6 +20,8 @@ li {
 }
 
 #container {
-    width: 1000px;
-    height: 1000px;
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 30px;
 }
