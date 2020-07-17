@@ -13,9 +13,9 @@ ul.animated-list {
 }
 li.animated {
     position: absolute;
-    -webkit-transition: all 2s linear;
+    /* -webkit-transition: all 2s linear;
     -moz-transition: all 2s linear;
-    transition: all 2s linear;
+    transition: all 2s linear; */
     /* width: 100px;
     height: 100px; */
     text-align: center;
