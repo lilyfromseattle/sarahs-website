@@ -4,7 +4,7 @@ var rad = ((containerSize/3).toString()) + "px"
 var type = 1, //circle type - 1 whole, 0.5 half, 0.25 quarter
     radius = rad, //distance from center
     start = -90, //shift start from 0
-    $elements = $('li:not(:first-child)'),
+    $elements = $('li.animated:not(:first-child)'),
     numberOfElements = (type === 1) ?  $elements.length : $elements.length - 1, //adj for even distro of elements when not full circle
     slice = 360 * type / numberOfElements;
 
